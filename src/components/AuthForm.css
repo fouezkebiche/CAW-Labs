@@ -1,0 +1,42 @@
+/* src/components/AuthForm.css */
+
+.auth-form {
+  max-width: 300px;
+  margin: auto;
+  padding: 20px;
+  background-color: rgb(87, 139, 184);
+  border: 1px solid #040e15;
+  border-radius: 5px;
+}
+
+.auth-form label {
+  display: block;
+  margin-bottom: 10px;
+  color: rgb(60, 57, 151);
+}
+
+.auth-form label input {
+  margin-top: 5px; 
+}
+
+.auth-form input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+.auth-form button {
+  background-color: rgb(60, 57, 151);
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 10px; 
+}
+
+.auth-form button:hover {
+  background-color: rgb(60, 57, 151);
+}

@@ -1,0 +1,31 @@
+.display-tab-container {
+  margin-top: 20px;
+  font-family: 'Arial', sans-serif; 
+}
+
+.display-tab-list {
+  list-style: none;
+  padding: 0;
+}
+
+.display-tab-item {
+  margin-bottom: 10px;
+  font-size: 16px; 
+}
+
+.display-option-1,
+.display-option-2,
+.display-option-4 {
+  color: #6a5acd; 
+  font-weight: bold; 
+}
+
+.display-option-3 {
+  cursor: pointer;
+  color: #e74c3c;
+  font-style: italic;
+}
+
+.display-option-3:hover {
+  color: #3498db; 
+}
